@@ -3,7 +3,7 @@ const qrcode = require("qrcode-terminal")
 const { GoogleGenAI } = require("@google/genai")
 
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyBp6SzBCizdGGgjGlRMbqqyAOpevHc0zIE"
+  apiKey: "YOUR_GOOGLE_GENAI_API_KEY"
 })
 
 const client = new Client()
